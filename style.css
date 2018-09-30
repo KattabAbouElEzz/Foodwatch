@@ -156,6 +156,7 @@ header nav ul li:hover{
 
 #work{
 	background-color: #f0f0f0;
+	background-attachment: fixed;
 }
 
 #projects{
