@@ -21,6 +21,10 @@ h1, h2, h3, a {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	color: #494949;
+	
+}
+
+h1, h2, h3{
 	text-transform: uppercase;
 }
 
@@ -129,7 +133,45 @@ header nav ul li:hover{
 	opacity: 1;
 }
 
-/* ABOUT**********************************************/
+/* PRODUCT**********************************************/
+
+#products {
+	background-color: #f0f0f0;
+	background-size: 100%;
+}
+
+#productsimg{
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#productsimg ul {
+	padding: 0;
+}
+
+#productsimg ul li {
+	width: 50%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+#productsimg img {
+	width: 650px;
+	height: 400px;
+	border-radius: 5px;
+}
+
+#productsimg img:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* ABOUT US**********************************************/
 
 #about img{
 	width: 240px;
@@ -151,41 +193,30 @@ header nav ul li:hover{
 	margin: 0 auto 0 auto;
 }
 
-/* WORK***************************************************/
+/* PARTNERS***************************************************/
 
-
-#work{
-	background-color: #f0f0f0;
+#partners {
+	background: url(partners.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-#projects{
-	width: 900px;
-	margin: 0 auto 0 auto;
+#partners h1{
+	margin: 240px auto 0 auto;
+	font-size: 110px;
+	color: #19070B;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	outline-style: #FFFFFF;
 }
 
-#projects ul{
-	padding: 0;
+#partners hr{
+	color: #19070B;
 }
 
-#projects ul li{
-	width: 33.3%;
-	float: left;
-	margin-bottom; 15px;
-}
 
-#projects img{
-	width: 280px;
-	height: 170px;
-	border-radius: 5px;
-}
 
-#projects img:hover{
-	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-}
 
 /*CONTACT***************************************************/
 
@@ -292,20 +323,20 @@ footer p{
 		width: 80%;
 	}
 	
-	#projects{
+	#products{
 		width: auto;
 	}
 	
-	#projects ul li{
+	#products ul li{
 		width: 100%;
 		float: none;
 	}
 	
-	#projects ul li:last-child{
+	#products ul li:last-child{
 		padding-bottom: 20%;
 	}
 	
-	#projects img {
+	#products img {
 		width: 55%;
 		height: auto;
 	}
